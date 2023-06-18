@@ -29,7 +29,7 @@ public class SwaggerConfig {
                 .description("\"Swagger configuration for saving management application \"")
                 .version("1.1.0")
                 .license("Apache 2.0")
-                .contact(new Contact("Adan Ali", "", "adanali@gmail.com"))
+                .contact(new Contact("Adan Ali", "https://github.com/Aadan4762?tab=repositories", "aadan4762@gmail.com"))
                 .build();
     }
 
