@@ -1,4 +1,4 @@
-/**package com.adan.savings.configuration;
+package com.adan.savings.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,7 +18,7 @@ public class SwaggerConfig {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.adan.savings.configuration"))
+                .apis(RequestHandlerSelectors.basePackage("com.adan.savings"))
                 .paths(PathSelectors.any())
                 .build().apiInfo(metaData());
     }
@@ -33,4 +33,4 @@ public class SwaggerConfig {
                 .build();
     }
 
-}**/
+}
